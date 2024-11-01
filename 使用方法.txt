@@ -1,0 +1,14 @@
+
+1.将wp_title_tooltips文件夹放在plugins的根目录下（既\wp-content\plugins） 后台激活插件
+
+3.确保你的主题中有用到<?php wp_footer(); ?>这个接口函数 如果没有请在</body>上面加入<?php wp_footer(); ?> 这个函数不会对你的模板主题造成任何影响
+
+2.替换<?php the_title(); ?>为<?php wpttt_the_title(); ?>
+
+3.适当的位置写入
+<php glll_wpttt(); ?>
+
+举例：
+
+<h2><a href="<?php the_permalink(); ?>"  title=" Link to <?php the_title(); ?>" rel="bookmark"><?php wpttt_the_title(); ?></a></h2>
+<?php glll_wpttt(); ?>

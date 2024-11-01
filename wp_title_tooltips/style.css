@@ -1,0 +1,26 @@
+.wp_i_tooltips {position:fixed; z-index:9999; bottom:0; left:0; text-align:left; width:100%; padding: 10px; font-size:11px; background: url(bg.png) top repeat-x;COLOR: #262236; display: none; height: 0px;}
+/* FOR IE6*/
+.wp_i_tooltips {_position: absolute;_bottom: 0;_clear: both; _background: url(bg.gif) top repeat-x; _padding-left: 0px; _padding-right: 0px;
+		_top:expression(eval(document.compatMode &&
+        document.compatMode=='CSS1Compat') ?
+        documentElement.scrollTop
+        +(documentElement.clientHeight-this.clientHeight)
+        : document.body.scrollTop
+        +(document.body.clientHeight-this.clientHeight));}
+.wp_i_tooltips .wttt_class{margin-top:20px;}
+.wttt-title { margin-left: 10px; margin-right: 10px; float: left; width: 90%; margin-top:20px}
+.wttt-title h4 {text-transform:uppercase; border-bottom: 1px dotted #CCCCCC;  padding:0px; margin: 0px; font-size:18px; margin-top: 5px; font-family: "Century Gothic", "Trebuchet MS"; margin-left: 10px; margin-bottom: 5px;}
+.wttt-title .tooltips_entry{margin-left: 20px;}
+.wttt-title .tooltips_entry span{ font-size: 12px; float: left; margin-left: 10px; text-transform:uppercase;}
+
+.wttt-content {padding: 0px; margin: 0px; width: 90%; overflow:auto;}
+.wttt-content .avatar {border: 1px solid #d3d3d3;background-color: #fff;padding: 1px;float: left;margin-bottom: 5px; margin-right: 10px;}
+.wttt-content ol{text-align: justify; padding:0px; margin: 0px; margin-right: 10px; margin-bottom: 10px;}
+.wttt-content h3{font-size:12px;border-bottom: 1px #C6C6C6 dotted; padding-bottom: 5px; padding-top: 0px; text-transform:uppercase; margin:0px; font-weight:normal;}
+.wttt-content li {font: 1em 'Lucida Grande', Tahoma, Verdana, sans-serif; width:90%}
+.wttt-content .reply {background: #FAFAFA;margin: 15px 0;padding: 10px;border: 1px solid #ECEEF0;list-style: none;}
+.wttt-content .adminreply{background: #ECEEF0;margin: 15px 0;padding: 10px;border:1px solid #cdd1d1;list-style: none; color:#000000;}
+.wttt-content cite   {font-style: normal;font-size: 14px; color:#314FA9;}
+.wttt-content .commentcount {font-family: Georgia,sans-serif;font-size: 1.8em;font-weight: bold;color: #333333;float: right;}
+.wttt-content .commentmetadata {border-bottom: 1px dotted #cdd1d1;padding-bottom: 5px; padding-top: 10px;display: block; color:#999999; margin-bottom: 5px;}
+.wttt-content .admincommentcount {font-family: Georgia,sans-serif;font-size: 1.8em;font-weight: bold;color: #CC0000;float: right; border-bottom:1px dashed #CC0000;}
